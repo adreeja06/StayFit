@@ -59,6 +59,7 @@ const imageVariants = {
 };
 
 const Testimonial = () => {
+  const transition = { type: "spring", duration: 3 };
   const [selected, setSelected] = useState(0);
   const tLength = testimonialsData.length;
 
@@ -87,6 +88,16 @@ const Testimonial = () => {
       <div className="right-t">
         <div></div>
         <div></div>
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ ...transition, duration: 2 }}
+          whileInVeiw={{ opacity: 1, x: 0 }}
+        ></motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ ...transition, duration: 2 }}
+          whileInVeiw={{ opacity: 1, x: 0 }}
+        ></motion.div>
         <motion.img
           variants={imageVariants}
           initial="hidden"

@@ -38,7 +38,7 @@ const caloriesVariants = {
     x: "-1rem",
   },
   end: {
-    x: "5rem",
+    x: "6rem",
     transition: {
       type: "tween",
       duration: 3,
@@ -59,7 +59,7 @@ const Hero = () => {
             initial="start"
             whileInView="end"
           ></motion.div>
-          <span>the best fitness club in town</span>
+          <span>the best fitness gym in town</span>
         </div>
 
         <div className="hero-text">
@@ -72,7 +72,7 @@ const Hero = () => {
           </div>
           <div>
             <span>
-              in here we will help you to shape and build your ideadl body and
+              in here we will help you to shape and build your ideal body and
               live up your live to fulllest
             </span>
           </div>
@@ -108,6 +108,7 @@ const Hero = () => {
         <button className="btn"> Join Now</button>
         <motion.div
           className="heart-rate"
+          transition={transition}
           variants={heartRateVariants}
           initial="start"
           whileInView="end"

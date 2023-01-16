@@ -20,7 +20,7 @@ const Plans = () => {
           <div className="plan" key={i}>
             {plan.icon}
             <span>{plan.name}</span>
-            <span>$ {plan.price}</span>
+            <span>Rs. {plan.price}</span>
             <div className="features">
               {plan.features.map((feature, i) => (
                 <div className="feature" key={i}>
@@ -30,7 +30,7 @@ const Plans = () => {
               ))}
             </div>
             <div>
-              <span>see more benefits -> </span>
+              <span>see more benefits = </span>
             </div>
             <button className="btn">Join now</button>
           </div>

@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="header">
       <img src={Logo} alt="logo" className="logo" />
-      {mobile == true && menuOpen === false ? (
+      {mobile === true && menuOpen === false ? (
         <div
           style={{
             backgroundColor: "var(--appColor)",
@@ -35,14 +35,45 @@ const Header = () => {
               spy={true}
               smooth={true}
               onClick={() => setMenuOpen(false)}
+              activeClass="active"
             >
               {" "}
               Home
             </Link>
           </li>
-          <li onClick={() => setMenuOpen(false)}>Programs</li>
-          <li onClick={() => setMenuOpen(false)}>Why us</li>
-          <li onClick={() => setMenuOpen(false)}>Plans</li>
+          <li>
+            <Link
+              to="programs"
+              spy={true}
+              smooth={true}
+              onClick={() => setMenuOpen(false)}
+            >
+              {" "}
+              Programs
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="reasons"
+              spy={true}
+              smooth={true}
+              onClick={() => setMenuOpen(false)}
+            >
+              {" "}
+              Why us
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="plans"
+              spy={true}
+              smooth={true}
+              onClick={() => setMenuOpen(false)}
+            >
+              {" "}
+              Plans
+            </Link>
+          </li>
           <li>
             <Link
               onClick={() => setMenuOpen(false)}

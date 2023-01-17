@@ -28,7 +28,7 @@ const Join = () => {
       <div className="left-j">
         <hr />
         <div>
-          <span className="stroke-text">readt to</span>
+          <span className="stroke-text">ready to</span>
           <span> level up</span>
         </div>
         <div>

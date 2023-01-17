@@ -48,6 +48,7 @@ const caloriesVariants = {
 
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
+  const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className="hero" id="home">
       <div className="blur hero-blur"></div>
@@ -81,19 +82,19 @@ const Hero = () => {
         <div className="figure">
           <div>
             <span>
-              <CountUp end={140} start={100} delay={2} prefix="+" />
+              <CountUp end={143} start={5} delay={2} prefix="+" />
             </span>
             <span>expert coaching</span>
           </div>
           <div>
             <span>
-              <CountUp end={987} start={500} delay={2} prefix="+" />
+              <CountUp end={1051} start={100} delay={2} prefix="+" />
             </span>
             <span>member joined</span>
           </div>
           <div>
             <span>
-              <CountUp end={50} start={20} delay={2} prefix="+" />
+              <CountUp end={42} start={10} delay={2} prefix="+" />
             </span>
             <span>fitness program </span>
           </div>

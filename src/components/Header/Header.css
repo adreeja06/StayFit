@@ -32,4 +32,32 @@
       padding: 2rem;
     }
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .header > :nth-child(2) {
+      position: fixed;
+      right: 2rem;
+      z-index: -100000000;
+      display: none;
+    }
+    .header-menu {
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 2rem;
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header > :nth-child(2) {
+      position: fixed;
+      right: 2rem;
+      z-index: 99;
+      display: block;
+    }
+    .header-menu {
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 2rem;
+      display: none;
+    }
+  }

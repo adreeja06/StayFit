@@ -101,12 +101,14 @@ const Hero = () => {
         </div>
 
         <div className="hero-button">
-          <button className="btn">Get Started</button>
-          <button className="btn">Learn More</button>
+          <button className="btn"><a href="https://www.linkedin.com/in/aditya-pote11/">Get Started</a></button>
+          <button className="btn"><a href="https://www.linkedin.com/in/aditya-pote11/" className="lm">Learn More</a></button>
         </div>
       </div>
       <div className="right-h">
-        <button className="btn"> Join Now</button>
+        <button className="btn">
+          <a href="https://www.linkedin.com/in/aditya-pote11/">Join Now</a>
+        </button>
         <motion.div
           className="heart-rate"
           transition={transition}

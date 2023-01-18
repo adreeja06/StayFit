@@ -11,7 +11,7 @@ const Programs = () => {
         <span className="stroke-text">to shape you</span>
       </div>
 
-      <div className="program-categories">
+      <a href="https://www.linkedin.com/in/aditya-pote11/"><div className="program-categories">
         {programsData.map((program, i) => (
           <div className="category" key={i}>
             {program.image}
@@ -23,7 +23,7 @@ const Programs = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div></a>
     </div>
   );
 };

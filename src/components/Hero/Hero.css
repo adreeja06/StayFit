@@ -178,6 +178,10 @@
     height: 30rem;
     left: 0;
   }
+
+  .lm{
+    color: rgb(255, 255, 255);
+  }
   
   @media screen and (max-width: 768px) {
     .hero {

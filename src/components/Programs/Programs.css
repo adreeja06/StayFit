@@ -14,7 +14,9 @@
   color: white;
   text-transform: uppercase;
   font-style: italic;
+  text-underline: none ;
 }
+
 
 .program-categories {
   display: flex;
@@ -33,6 +35,7 @@
 .category:hover {
   background-image: var(--planCard);
   cursor: pointer;
+  scale: 1.07;
 }
 
 .category > :nth-child(1) {

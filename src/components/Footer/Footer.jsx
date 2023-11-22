@@ -12,20 +12,20 @@ const Footer = () => {
 
       <div className="footer">
         <div className="social-links">
-          <a className="social-links" href="https://github.com/AdityaPote">
-            <img src={Github} alt="" href="https://github.com/AdityaPote" />
+          <a className="social-links" href="https://github.com/adreeja06">
+            <img src={Github} alt="" href="https://github.com/adreeja06" />
           </a>
-          <a className="social-links" href="https://github.com/AdityaPote">
+          <a className="social-links" href="https://www.instagram.com/_a.d.r.e.e.j.a_/">
             <img src={Instagram} alt="" />
           </a>
           <a
             className="social-links"
-            href="https://www.linkedin.com/in/aditya-pote11/"
+            href="https://www.linkedin.com/in/adreeja-mahato-84a000226/"
           >
             <img
               src={LinkedIn}
               alt=""
-              href="https://www.linkedin.com/in/aditya-pote11/"
+              href="https://www.linkedin.com/in/adreeja-mahato-84a000226/"
             />
           </a>
         </div>
